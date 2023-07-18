@@ -20,7 +20,7 @@ spec:
           image: saianilkumardeyyala/qod-api
           ports:
             - name: http
-              containerPort: 8080
+              containerPort: 3000
               protocol: TCP
           env:
             - name: DB_HOST
